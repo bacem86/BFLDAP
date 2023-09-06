@@ -4,10 +4,10 @@
 import PackageDescription
 
 let package = Package(
-    name: "BDLDAP",
+    name: "BFLDAP",
     products: [
         .library(
-            name: "BDLDAP",
-            targets: ["BDLDAP"]),
+            name: "BFLDAP",
+            targets: ["BFLDAP"]),
     ]
 )
