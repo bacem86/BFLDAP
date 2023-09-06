@@ -1,0 +1,13 @@
+prefix=/Users/bacemfatnassi/Downloads/openldap-master/ios_install
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${exec_prefix}/lib
+
+Name: ldap (OpenLDAP)
+Description: OpenLDAP Lightweight Directory Access Protocol library
+URL: https://www.openldap.org
+Version: 2.X
+Requires: lber
+Cflags: -I${includedir}
+Libs: -L${libdir} -lldap
+Libs.private: -lresolv  -lsasl2  

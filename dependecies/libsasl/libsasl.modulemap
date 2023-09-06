@@ -1,0 +1,4 @@
+framework module SASL {
+    header "sasl.h"
+    export *
+}

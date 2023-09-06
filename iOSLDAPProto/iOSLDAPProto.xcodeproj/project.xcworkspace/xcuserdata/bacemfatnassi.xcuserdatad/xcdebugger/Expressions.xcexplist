@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "LDAP.ResultSet.dictionary.getter:PerfectLDAP.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "aset.attributes">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LDAPContactLoader.search(keyWord:completion:):LDAPContactLoader.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.configuration.base">
+            </PersistentString>
+            <PersistentString
+               value = "self.configuration.scope">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ldap_set_option:options.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "* (const int *) invalue">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LDAPContactLoader.setUp():LDAPContactLoader.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "&quot;\(prefix)\(self.configuration.host)&quot;">
+            </PersistentString>
+            <PersistentString
+               value = "self.configuration.password">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

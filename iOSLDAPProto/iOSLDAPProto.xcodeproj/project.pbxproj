@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		959C7E672AA8E34300B51EA3 /* BFLDAP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 959C7E5E2AA8E32300B51EA3 /* BFLDAP.framework */; };
+		959C7E682AA8E34300B51EA3 /* BFLDAP.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 959C7E5E2AA8E32300B51EA3 /* BFLDAP.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		959C7E872AA8E40900B51EA3 /* ICONVApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 959C7E862AA8E3F900B51EA3 /* ICONVApi.framework */; };
+		959C7E882AA8E40900B51EA3 /* ICONVApi.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 959C7E862AA8E3F900B51EA3 /* ICONVApi.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		959C7E892AA8E40900B51EA3 /* OpenLDAP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 959C7E842AA8E3F900B51EA3 /* OpenLDAP.framework */; };
+		959C7E8A2AA8E40900B51EA3 /* OpenLDAP.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 959C7E842AA8E3F900B51EA3 /* OpenLDAP.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		959C7E8B2AA8E40900B51EA3 /* SASL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 959C7E822AA8E3F900B51EA3 /* SASL.framework */; };
+		959C7E8C2AA8E40A00B51EA3 /* SASL.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 959C7E822AA8E3F900B51EA3 /* SASL.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		95C308332AA74C14009BC7FF /* ContactLDAPTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C308322AA74C14009BC7FF /* ContactLDAPTableViewController.swift */; };
+		95FABEF72AA74697007EAD2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FABEF62AA74697007EAD2C /* AppDelegate.swift */; };
+		95FABEF92AA74697007EAD2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FABEF82AA74697007EAD2C /* SceneDelegate.swift */; };
+		95FABEFE2AA74697007EAD2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95FABEFC2AA74697007EAD2C /* Main.storyboard */; };
+		95FABF002AA74697007EAD2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95FABEFF2AA74697007EAD2C /* Assets.xcassets */; };
+		95FABF032AA74697007EAD2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95FABF012AA74697007EAD2C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		959C7E5D2AA8E32300B51EA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 959C7E582AA8E32300B51EA3 /* BFLDAP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 95FABECD2AA741A6007EAD2C;
+			remoteInfo = BFLDAP;
+		};
+		959C7E772AA8E3F900B51EA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 959C7E6B2AA8E3F900B51EA3 /* LDAP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 95D978902AA22FA100FED9EF;
+			remoteInfo = liblber;
+		};
+		959C7E792AA8E3F900B51EA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 959C7E6B2AA8E3F900B51EA3 /* LDAP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 95D978FA2AA2331700FED9EF;
+			remoteInfo = libunicode;
+		};
+		959C7E7B2AA8E3F900B51EA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 959C7E6B2AA8E3F900B51EA3 /* LDAP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 95D979222AA2348400FED9EF;
+			remoteInfo = liblmdb;
+		};
+		959C7E7D2AA8E3F900B51EA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 959C7E6B2AA8E3F900B51EA3 /* LDAP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 95D979492AA2357B00FED9EF;
+			remoteInfo = liblutil;
+		};
+		959C7E7F2AA8E3F900B51EA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 959C7E6B2AA8E3F900B51EA3 /* LDAP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 95D97B6D2AA23BBE00FED9EF;
+			remoteInfo = librewrite;
+		};
+		959C7E812AA8E3F900B51EA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 959C7E6B2AA8E3F900B51EA3 /* LDAP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 951AF42C2AA720C200F31E74;
+			remoteInfo = SASL;
+		};
+		959C7E832AA8E3F900B51EA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 959C7E6B2AA8E3F900B51EA3 /* LDAP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 951AF4692AA7231B00F31E74;
+			remoteInfo = OpenLDAP;
+		};
+		959C7E852AA8E3F900B51EA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 959C7E6B2AA8E3F900B51EA3 /* LDAP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 95FABE8A2AA73691007EAD2C;
+			remoteInfo = ICONVApi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		95FABF0E2AA746DE007EAD2C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				959C7E8A2AA8E40900B51EA3 /* OpenLDAP.framework in Embed Frameworks */,
+				959C7E8C2AA8E40A00B51EA3 /* SASL.framework in Embed Frameworks */,
+				959C7E682AA8E34300B51EA3 /* BFLDAP.framework in Embed Frameworks */,
+				959C7E882AA8E40900B51EA3 /* ICONVApi.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		959C7E582AA8E32300B51EA3 /* BFLDAP.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BFLDAP.xcodeproj; path = ../BFLDAP/BFLDAP.xcodeproj; sourceTree = "<group>"; };
+		959C7E6B2AA8E3F900B51EA3 /* LDAP.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LDAP.xcodeproj; path = ../dependecies/LDAP.xcodeproj; sourceTree = "<group>"; };
+		95C308322AA74C14009BC7FF /* ContactLDAPTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactLDAPTableViewController.swift; sourceTree = "<group>"; };
+		95FABEF32AA74697007EAD2C /* iOSLDAPProto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSLDAPProto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95FABEF62AA74697007EAD2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95FABEF82AA74697007EAD2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		95FABEFD2AA74697007EAD2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95FABEFF2AA74697007EAD2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95FABF022AA74697007EAD2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95FABF042AA74697007EAD2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95FABEF02AA74697007EAD2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959C7E892AA8E40900B51EA3 /* OpenLDAP.framework in Frameworks */,
+				959C7E8B2AA8E40900B51EA3 /* SASL.framework in Frameworks */,
+				959C7E672AA8E34300B51EA3 /* BFLDAP.framework in Frameworks */,
+				959C7E872AA8E40900B51EA3 /* ICONVApi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		959C7E592AA8E32300B51EA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				959C7E5E2AA8E32300B51EA3 /* BFLDAP.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		959C7E6C2AA8E3F900B51EA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				959C7E782AA8E3F900B51EA3 /* libliblber.a */,
+				959C7E7A2AA8E3F900B51EA3 /* liblibunicode.a */,
+				959C7E7C2AA8E3F900B51EA3 /* libliblmdb.a */,
+				959C7E7E2AA8E3F900B51EA3 /* libliblutil.a */,
+				959C7E802AA8E3F900B51EA3 /* liblibrewrite.a */,
+				959C7E822AA8E3F900B51EA3 /* SASL.framework */,
+				959C7E842AA8E3F900B51EA3 /* OpenLDAP.framework */,
+				959C7E862AA8E3F900B51EA3 /* ICONVApi.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95C3083F2AA76D4E009BC7FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95FABEEA2AA74697007EAD2C = {
+			isa = PBXGroup;
+			children = (
+				959C7E6B2AA8E3F900B51EA3 /* LDAP.xcodeproj */,
+				959C7E582AA8E32300B51EA3 /* BFLDAP.xcodeproj */,
+				95FABEF52AA74697007EAD2C /* iOSLDAPProto */,
+				95FABEF42AA74697007EAD2C /* Products */,
+				95C3083F2AA76D4E009BC7FF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95FABEF42AA74697007EAD2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95FABEF32AA74697007EAD2C /* iOSLDAPProto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95FABEF52AA74697007EAD2C /* iOSLDAPProto */ = {
+			isa = PBXGroup;
+			children = (
+				95FABEF62AA74697007EAD2C /* AppDelegate.swift */,
+				95FABEF82AA74697007EAD2C /* SceneDelegate.swift */,
+				95C308322AA74C14009BC7FF /* ContactLDAPTableViewController.swift */,
+				95FABEFC2AA74697007EAD2C /* Main.storyboard */,
+				95FABEFF2AA74697007EAD2C /* Assets.xcassets */,
+				95FABF012AA74697007EAD2C /* LaunchScreen.storyboard */,
+				95FABF042AA74697007EAD2C /* Info.plist */,
+			);
+			path = iOSLDAPProto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95FABEF22AA74697007EAD2C /* iOSLDAPProto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95FABF072AA74697007EAD2C /* Build configuration list for PBXNativeTarget "iOSLDAPProto" */;
+			buildPhases = (
+				95FABEEF2AA74697007EAD2C /* Sources */,
+				95FABEF02AA74697007EAD2C /* Frameworks */,
+				95FABEF12AA74697007EAD2C /* Resources */,
+				95FABF0E2AA746DE007EAD2C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSLDAPProto;
+			productName = iOSLDAPProto;
+			productReference = 95FABEF32AA74697007EAD2C /* iOSLDAPProto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95FABEEB2AA74697007EAD2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					95FABEF22AA74697007EAD2C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 95FABEEE2AA74697007EAD2C /* Build configuration list for PBXProject "iOSLDAPProto" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95FABEEA2AA74697007EAD2C;
+			productRefGroup = 95FABEF42AA74697007EAD2C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 959C7E592AA8E32300B51EA3 /* Products */;
+					ProjectRef = 959C7E582AA8E32300B51EA3 /* BFLDAP.xcodeproj */;
+				},
+				{
+					ProductGroup = 959C7E6C2AA8E3F900B51EA3 /* Products */;
+					ProjectRef = 959C7E6B2AA8E3F900B51EA3 /* LDAP.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				95FABEF22AA74697007EAD2C /* iOSLDAPProto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		959C7E5E2AA8E32300B51EA3 /* BFLDAP.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = BFLDAP.framework;
+			remoteRef = 959C7E5D2AA8E32300B51EA3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		959C7E782AA8E3F900B51EA3 /* libliblber.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libliblber.a;
+			remoteRef = 959C7E772AA8E3F900B51EA3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		959C7E7A2AA8E3F900B51EA3 /* liblibunicode.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = liblibunicode.a;
+			remoteRef = 959C7E792AA8E3F900B51EA3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		959C7E7C2AA8E3F900B51EA3 /* libliblmdb.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libliblmdb.a;
+			remoteRef = 959C7E7B2AA8E3F900B51EA3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		959C7E7E2AA8E3F900B51EA3 /* libliblutil.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libliblutil.a;
+			remoteRef = 959C7E7D2AA8E3F900B51EA3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		959C7E802AA8E3F900B51EA3 /* liblibrewrite.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = liblibrewrite.a;
+			remoteRef = 959C7E7F2AA8E3F900B51EA3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		959C7E822AA8E3F900B51EA3 /* SASL.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SASL.framework;
+			remoteRef = 959C7E812AA8E3F900B51EA3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		959C7E842AA8E3F900B51EA3 /* OpenLDAP.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OpenLDAP.framework;
+			remoteRef = 959C7E832AA8E3F900B51EA3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		959C7E862AA8E3F900B51EA3 /* ICONVApi.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ICONVApi.framework;
+			remoteRef = 959C7E852AA8E3F900B51EA3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95FABEF12AA74697007EAD2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95FABF032AA74697007EAD2C /* LaunchScreen.storyboard in Resources */,
+				95FABF002AA74697007EAD2C /* Assets.xcassets in Resources */,
+				95FABEFE2AA74697007EAD2C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95FABEEF2AA74697007EAD2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95FABEF72AA74697007EAD2C /* AppDelegate.swift in Sources */,
+				95FABEF92AA74697007EAD2C /* SceneDelegate.swift in Sources */,
+				95C308332AA74C14009BC7FF /* ContactLDAPTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95FABEFC2AA74697007EAD2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95FABEFD2AA74697007EAD2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95FABF012AA74697007EAD2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95FABF022AA74697007EAD2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95FABF052AA74697007EAD2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95FABF062AA74697007EAD2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95FABF082AA74697007EAD2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32S4L54KF5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOSLDAPProto",
+					"$(PROJECT_DIR)/iOSLDAPProto/libs",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOSLDAPProto/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ba.app.test.iOSLDAPProto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95FABF092AA74697007EAD2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32S4L54KF5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOSLDAPProto",
+					"$(PROJECT_DIR)/iOSLDAPProto/libs",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOSLDAPProto/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ba.app.test.iOSLDAPProto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95FABEEE2AA74697007EAD2C /* Build configuration list for PBXProject "iOSLDAPProto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95FABF052AA74697007EAD2C /* Debug */,
+				95FABF062AA74697007EAD2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95FABF072AA74697007EAD2C /* Build configuration list for PBXNativeTarget "iOSLDAPProto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95FABF082AA74697007EAD2C /* Debug */,
+				95FABF092AA74697007EAD2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95FABEEB2AA74697007EAD2C /* Project object */;
+}
