@@ -35,10 +35,17 @@ loader.limitation = 10
 
 loader.connect { error in
     // Handle connection success or error
+
+
 }
 
-let keyWord = "search keyword"
+func shearch(keyWord:String){
+ 
 
-loader.search(keyWord: keyWord) { contacts in
+    loader.search(keyWord: keyWord) { contacts in
     // Handle search results
+    }
+
 }
+
+
